@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>RGB Color Picker</h2>
+
+    <div id="color-box"></div>
+
+
+<label for="red">Red:</label>
+<input type="number" id="red" min="0" max="255" value="0">
+
+<label for="green">Green:</label>
+<input type="number" id="green" min="0" max="255" value="0">
+
+<label for="blue">Blue:</label>
+<input type="number" id="blue" min="0" max="255" value="0">
+
+<button onclick="showColor()">Show Color</button><br><br>
+
+<script src="app.js"></script>
+</body>
+</html>
